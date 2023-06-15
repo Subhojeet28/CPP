@@ -1,0 +1,6 @@
+public:
+    int multiplication(int A, int B){
+        int mul=0;
+        mul=A*B;
+        return mul;
+    }
