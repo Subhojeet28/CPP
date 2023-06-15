@@ -8,7 +8,7 @@ int main()
   int temp;
   cin>>temp;
   
-  cout<< (temp>30?"hot":"pleasant");
+  cout<< (temp>30?"hot":"pleasant"); //weather = temp>30?"hot":"pleasant";
   
   cout<<weather;
 }
