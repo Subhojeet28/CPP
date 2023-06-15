@@ -1,0 +1,14 @@
+public:
+    string isVowel(char c){
+        if(c=='A' || c=='E'|| c=='I'|| c=='O' || c=='U' ||  c=='a' || c=='e'|| c=='i'|| c=='o' || c=='u') //Made a lot of mistakes in || and && opeartor also in == operator
+                                                                                                            also made mistake is judging the uppercase and lower case
+                                                                                                            
+        {
+            cout<<"YES";
+            
+        }
+        else
+        {
+            cout<<"NO";
+        }
+    }
