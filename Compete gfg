@@ -1,0 +1,24 @@
+    public:
+    void scores(long long a[], long long b[], int &ca, int &cb)
+    {
+        
+        for(int i=0; i<3;i++)
+        {                                                         // got the logic  with the help of question but missed out some information because of which the
+        //if(a[i]==b[i])                                                  code was not running hope to do better next time.
+        //{
+           // cout<<"nothing happens";
+                
+        //}
+         if(a[i]>b[i])
+        {
+            ca++;
+            
+        }
+        else
+        {
+            cb++;
+            
+        }
+        }
+    }
+    
