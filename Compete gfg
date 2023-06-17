@@ -14,7 +14,7 @@
             ca++;
             
         }
-        else
+        else if(b[i]>a[i])
         {
             cb++;
             
