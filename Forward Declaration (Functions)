@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+
+//Forward declaration
+void play_music();
+//{
+  //  cout<<"Playing music";
+//}
+
+int main()
+{
+    play_music();
+}
+
+void play_music()
+{
+    cout<<"Playing music";
+}
