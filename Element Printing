@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    
+                                                                          
+    int n,i;
+    cin>>n;
+    
+     //int num[n];
+     cout<<"The number are :";
+     
+     for(i=1;i<=n;i++)
+     {
+            
+            int num;
+            cin>>num;
+            cout<<num<<" ";
+         //int num1[i];
+         //cin>>num1[i];
+         //cout<<num1[i]<<endl;
+     }
+     cout<<endl;
+     // cout<<num1[i]<<endl;
+     
+    // for( i=1;i<=n;i++)
+     //{
+      //   cout<<i;
+    // }
+}
