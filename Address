@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    /*int a=5;
+    cout<<a<<endl;
+    cout<<&a; */
+    
+    /*int arr[10];
+    
+    cout<<arr<<endl;
+    cout<<&arr;*/ //array name itself represents the address array
+    
+    char c='A';
+    cout<<(void *)&c;
+}
