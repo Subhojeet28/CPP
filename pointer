@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    
+    int x=5;
+    cout<<&x<<endl;
+    int *xptr = &x;;
+    cout<< *xptr<<endl; //to know the value of x(dereference operator)
+    cout<< xptr<<endl; 
+    
+     float y;
+    cout<<&y<<endl;
+    float *yptr = &y; //storing the address of y
+    cout<<yptr<<endl;
+    cout<<*yptr; 
+    
+    cout<<&xptr<<endl;
+    int ** zptr= &xptr;
+    cout<<zptr<<endl;
+    
+}
