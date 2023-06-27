@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   //   cout<<"Hello World";
+    int arr[100];
+    int n,v;
+    n= sizeof(arr)/sizeof(int);
+    v= sizeof(arr)/sizeof(int);
+    
+    cout<<n<<endl;
+    cout<<v<<endl;
+    
+    return 0;
+}
