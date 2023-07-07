@@ -12,18 +12,32 @@ int main()
         
         cin>>arr[i];
     }
-    int i;
+  /*  int i;
     while(i<n)
     {
     
     if(arr[i]!=arr[i+1])
     {
-        cout<<"The number is unique "<<endl;
+      cout<<"The number is unique";
     }
-    else
+    else 
     {
-        cout<<"The number is not unique"<<endl;
+        cout<<"the number is not unique";
     }
-    i++;
+    i++;*/
+    
+     for (int i=0; i<n; i++) //output loop
+    {
+        int j;
+        for (j=0; j<i; j++)
+           if (arr[i] == arr[j])
+               break;
+         if (i == j)
+          cout << arr[i] << " ";
+    }
+    return 0;
+  
+
 }
-}
+
+
